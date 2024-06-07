@@ -1,0 +1,24 @@
+column,type,label,description
+DATE,timestamp,Date,Date of the Officer-Involved Shooting incident.
+TIME,text,Time,Time of the Officer-Involved Shooting incident. 
+HOUR,text,Hour of Day,"Hour of day of the Officer-Involved Shooting incident (0000-0059hrs = 00, 0100-0159hrs = 01, 0200-0259hrs = 02, 0300-0359hrs = 03, etc.). "
+DAY_OF_WEEK,text,Day of Week,"Day of week of the Officer-Involved Shooting incident (Sunday, Monday, Tuesday, etc.). "
+MONTH,text,Month,"Calendar month of the Officer-Involved Shooting incident (January, February, March, etc.). "
+QUARTER,text,Calendar Year Quarter,"Calendar year quarter of the Officer-Involved Shooting (Q1, Q2, Q3, Q4). "
+YEAR,text,Calendar Year,"Calendar year of the Officer-Involved Shooting incident (2017, 2018 etc.)."
+INC_RPT,text,Incident Report Number,A record number to use as a unique identifier for each incident. More than one officer and/or individual may be involved in an incident.  
+PRECINCT,text,Police Precinct,"Police precinct name where the Officer-Involved Shooting incident occurred (Black Mountain Precinct, South Mountain Precinct, Central City Precinct, Desert Horizon Precinct, Mountain View Precinct, Maryvale/Estrella Precinct, Cactus Park Precinct)."
+COUNCIL_DIST,text,Council District Number,"The City of Phoenix council district area where the Officer-Involved Shooting incident occurred using the council district number (e.g., 1, 2, 3, 4, 5, 6, 7 or 8). Officer-Involved Shootings outside the City of Phoenix or instances where the location information was not available are grouped under ""NA""."
+LOCATION,text,Anonymized Address,"The address where the Officer-Involved Shooting occurred, anonymized to the hundred block. "
+SP_WEAPON,text,Suspect Weapon,"Grouped categories for individual's weapon (firearm, bladed object, blunt object, vehicle, or other).  Note that actual firearms as well as replica firearms are included in the firearm category."
+SP_INJURY_LEVEL,text,Suspect Injury Level,"Grouped categories for individual injury level indicating the severity of the injury sustained from the discharge of the officer's firearm.  Injuries resulting from other interactions during the Officer-Involved Shooting incident (such as canine extraction, Electronic Control Device deployment, etc.) are not reflected.  Categories include: No injury, Injured, or Fatal."
+FATALITY_FLG,text,Fatal or Non-Fatal Shooting,Injury level of individual grouped into fatal or non-fatal categories.
+SP_GENDER,text,Suspect Gender/Sex,Gender/sex of the individual as identified on scene. Data may be updated later if additional information is obtained. 
+SP_ETHNICITY,text,Suspect Ethnicity,Ethnicity of the individual as identified on scene. Data may be updated later if additional information is obtained.
+SP_RACE,text,Suspect Race,Race of the individual as identified on scene. Data may be updated later if additional information is obtained.
+SP_AGE_AT_INC,text,Individual Age,Age of the individual at time of the Officer-Involved Shooting incident. 
+SP_AGE_GROUP,text,Individual Age Grouped,"Age of the Individual at the time of the Officer-Involved Shooting incident, grouped into categories by age bracket (e.g., <20, 20s, 30s, 40s, 50s, etc.)."
+PO_RACE,text,Police Officer Race,"Race of the police officer who discharged a firearm based on employee Human Resources record.  Human Resources has a larger set of categories for race / ethnicity such as Asian, Asian/White, White, Black, Black/White, Other Blend, etc.  Note that there can be more than one officer who discharges a firearm in the same incident."
+PO_ETHNICITY,text,Police Officer Ethnicity,Ethnicity of the police officer who discharged a firearm.  Note that there can be more than one officer who discharges a firearm in the same incident.
+REFERENCE_ID,text,Police Officer Unique Identifier,Reference number to use as unique identifier for officers.
+SP_NUM,text,Suspect Record Number,Record number to use as unique identifier for individual.
